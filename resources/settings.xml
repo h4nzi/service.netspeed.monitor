@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Obecné">
+		<setting type="lsep" label="Rozhraní"/>
+		<setting id="rozhrani" type="enum" label="Zvolte připojené rozhraní"  values="eth0|wlan0" default="0"/>
+		<setting type="sep"/>
+	</category>
+	
+	<category label="Rozšířené">
+		<setting type="lsep" label="Debug"/>
+		<setting id="log_level" type="enum" label="Debug" option="hidden" values="NONE|ERROR|INFO|DEBUG" default="1"/>
+	</category>
+</settings>
+
