@@ -17,7 +17,7 @@ monitor = xbmc.Monitor()
 if selfAddon.getSetting('rozhrani') == '0':
     interface="eth0"
     print("interface = eth0")
-elif selfAddon.getSetting('rozhrani') == '1':
+elif selfAddon.getSetting('supervision_mode') == '1':
     interface="wlan0"
     print("interface = wlan0")
 else:
